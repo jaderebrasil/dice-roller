@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='jarniadice',
-    version='0.1.1',
+    version='0.1.2',
     license='MIT',
     author='Jader Brasil',
     author_email='jaderbrasil@protonmail.com',
@@ -15,10 +15,6 @@ setup(
     keywords='Dice, Roller, RPG',
     install_requires=[
         'numpy',
-        're',
-        'logging',
-        'typing',
-        'enum'
     ],
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
