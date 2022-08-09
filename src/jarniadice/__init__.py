@@ -3,7 +3,7 @@ import re
 import numpy as np
 from typing import List, cast, Union
 
-from expr import (DiceExpr, NumExpr, OperatorExpr,
+from jarniadice.expr import (DiceExpr, NumExpr, OperatorExpr,
                   OperatorType, INumericExpr)
 
 Expr = Union[INumericExpr, OperatorExpr]
