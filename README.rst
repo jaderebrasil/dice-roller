@@ -24,7 +24,7 @@ Run two d10 and return the value of the **lower**::
 
     $ python -m jarniadice '2d10kl'
 
-Run two d10 and return **all** the values as a 
+Run two d10 and return **all** the values as a
 `numpy.ndarray <https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html#numpy.ndarray>`_::
 
-   $ python -m jarniadice '2d10kl'
+   $ python -m jarniadice '2d10ka'

@@ -9,6 +9,7 @@ homepage = "https://github.com/jaderebrasil/python-roller"
 repository = "https://github.com/jaderebrasil/python-roller"
 keywords = ["dice", "game", "rpg", "roller", "jarnia"]
 classifiers=[
+    "Environment :: Console",
     "Development Status :: 2 - Pre-Alpha",
     "License :: OSI Approved :: MIT License",
     "Intended Audience :: Developers",
