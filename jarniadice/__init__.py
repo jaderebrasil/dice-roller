@@ -71,4 +71,6 @@ class Roller:
             OperatorType.DIV.value: lambda x, y: x / y,
         }
 
-        return handlers[op.value](self.reg, val)
+        res = handlers[op.value](self.reg, val)
+
+        return np.floor(res).astype(int)
